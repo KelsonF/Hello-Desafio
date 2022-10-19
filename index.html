@@ -14,32 +14,34 @@
 
     <header class="topo-da-pagina">
         <div class="conteudo-topo">
-            <i class="fa-solid fa-arrow-left"></i>
-            <h1 class="titulo-da-pagina">App Alunos</h1>
+            <h1 id="titulo-da-pagina">App Alunos</h1>
         </div>
     </header>
 
     <main>
+
         <form id="box-calculadora">
+
             <h3 id="titulo-box">D a d o s</h3>
-            <div class="input-control"> 
-                <label for="nome-do-aluno">Nome do aluno</label>
-                <input type="text" id="nome-do-aluno">
-            </div>
 
             <div class="input-control"> 
-                <label for="nota1">Nota 1</label>
-                <input type="text" id="nota1">
+                <input type="text" id="nome-do-aluno" placeholder="Nome:">
             </div>
 
-            <div class="input-control"> 
-                <label for="nota2">Nota 2</label>
-                <input type="text" id="nota2">
+            <div class="flex"> 
+                <div class="input-control2"> 
+                    <input type="text" id="nota1" placeholder="Nota1:">
+                </div>
+    
+                <div class="input-control2"> 
+                    <input type="text" id="nota2" placeholder="Nota 2:">
+                </div>
             </div>
 
-            <input type="submit" value="Salvar Nota">
+            <input type="submit" value="Salvar Nota" id="submit-button">
 
-            <input type="reset" value="Cancelar">
+            <input type="reset" value="Cancelar" id="reset-button">
+
         </form>
 
     </main>
